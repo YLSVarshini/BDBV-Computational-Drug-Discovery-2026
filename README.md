@@ -3,7 +3,6 @@
 ## In Silico Comparative Genomic Analysis and Molecular Docking of Antiviral Compounds Against Bundibugyo Ebolavirus VP35 in the Context of the 2026 PHEIC Outbreak
 
 **Author:** Yedavalli Lakshmi Sai Varshini
-**Date:** May 2026
 
 ---
 
