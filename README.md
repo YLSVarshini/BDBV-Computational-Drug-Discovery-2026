@@ -3,7 +3,6 @@
 ## In Silico Comparative Genomic Analysis and Molecular Docking of Antiviral Compounds Against Bundibugyo Ebolavirus VP35 in the Context of the 2026 PHEIC Outbreak
 
 **Author:** Yedavalli Lakshmi Sai Varshini
-**Institution:** Department of Genetic Engineering, SRM Institute of Science and Technology
 **Date:** May 2026
 
 ---
@@ -105,19 +104,6 @@ python3 scripts/05_epidemiology.py
 python3 scripts/07_autodock_vina_docking.py
 python3 scripts/06_docking_visualization.py
 ```
-
----
-
-## Citation
-
-This work was submitted to the Global Research Challenge 2026 (Synthica x NSRI).
-
-If you use this pipeline or data in your own research, please acknowledge:
-
-> Yedavalli, Lakshmi Sai Varshini (2026). In Silico Comparative Genomic Analysis and  Molecular Docking of Antiviral Compounds Against Bundibugyo Ebolavirus VP35 in the Context of the 2026 PHEIC Outbreak. Global Research Challenge, Synthica x NSRI. 
-> GitHub: https://github.com/YLSVarshini/BDBV-Computational-Drug-Discovery-2026
-
----
 
 ## Acknowledgements
 
