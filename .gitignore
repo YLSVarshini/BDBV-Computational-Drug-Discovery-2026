@@ -8,3 +8,10 @@ results/decoy_vinardo/
 results/decoy_box18/
 decoys/pdbqt/
 decoys/dec*.sdf
+md/*.dcd
+md/*.chk
+md/*.xml
+md/*_solvated.pdb
+md/*_min.pdb
+md/*_equil.pdb
+md/protein_fixed.pdb
