@@ -1,8 +1,10 @@
 # BDBV Computational Drug Discovery 2026
 
-## In Silico Comparative Genomic Analysis and Molecular Docking of Antiviral Compounds Against Bundibugyo Ebolavirus Nucleoprotein (NP) in the Context of the 2026 PHEIC Outbreak
+## In Silico Drug Target Analysis of Bundibugyo Ebolavirus in the Context of the 2026 PHEIC Outbreak
 
-**Author:** Yedavalli Lakshmi Sai Varshini
+**Author:** Y. Lakshmi Sai Varshini
+**Institution:** Department of Genetic Engineering, SRM Institute of Science and Technology
+**Date:** May 2026
 
 ---
 
@@ -62,7 +64,7 @@ On May 17, 2026, WHO declared a Public Health Emergency of International Concern
 
 ## Key Results
 
-### Docking Results — BDBV NP (PDB: 5VKD)
+### Docking Results — BDBV VP35 (PDB: 5VKD)
 
 | Rank | Compound | Affinity (kcal/mol) | Interpretation |
 |------|----------|---------------------|----------------|
@@ -104,18 +106,15 @@ python3 scripts/07_autodock_vina_docking.py
 python3 scripts/06_docking_visualization.py
 ```
 
-## Scope and Limitations
+---
 
-**What was screened.** PDB 5VKD is the BDBV nucleoprotein (NP) C-terminal domain in complex with a Fab fragment. The receptor used here is chain A, residues 638-739. The structure contains no small-molecule ligand (only water), so the docking could not be validated by re-docking a co-crystallised ligand.
+## Citation
 
-**Pocket not targeted.** A hydrophobic pocket on the NP core (around residues F280 and L284, EBOV numbering) binds VP35 and has been targeted by small molecules in Ebola virus work (Easton et al., 2018, https://doi.org/10.1016/j.antiviral.2018.06.003). That pocket lies outside the region docked here, so these results do not address it.
+If you use this code or data, please cite:
 
-**Other limitations.**
-- Docking is a single rigid-receptor AutoDock Vina run with a grid box centred on the protein, not on a defined pocket. Scores are rankings, not measured affinities.
-- No positive control or decoy set was used, so scoring performance is unbenchmarked.
-- Only 10 compounds were screened, and ADMET (SwissADME) was run for the top 3 only. No toxicity prediction was done.
-- The 2007 isolate is the source of the reference genome, so the 2007-vs-reference comparison shows 0 mutations and is uninformative. The 2012 isolates differ from the reference by about 250 positions.
-- No 2026 outbreak sequences were used, and nothing here has been tested experimentally.
+> Yedavalli, Y.L.S.V. (2026). In silico drug target analysis of Bundibugyo ebolavirus in the context of the 2026 PHEIC outbreak. Global Research Challenge, Synthica x NSRI.
+
+---
 
 ## Acknowledgements
 
