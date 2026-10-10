@@ -3,3 +3,8 @@ __pycache__/
 *.log
 miniconda3/
 .conda/
+results/decoy_docking/
+results/decoy_vinardo/
+results/decoy_box18/
+decoys/pdbqt/
+decoys/dec*.sdf
