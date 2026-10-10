@@ -15,7 +15,7 @@ ligands = ['Remdesivir','Favipiravir','Toremifene','Clomiphene',
 os.makedirs('results/docking', exist_ok=True)
 results = {}
 
-print("=== AUTODOCK VINA DOCKING: BDBV VP35 (5VKD Chain A) ===\n")
+print("=== AUTODOCK VINA DOCKING: BDBV NP (5VKD Chain A) ===\n")
 
 for ligand in ligands:
     lig_path = f'ligands/{ligand}.pdbqt'

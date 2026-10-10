@@ -19,13 +19,13 @@ for a in affinities:
     else: colors.append('#2CA02C')
 
 fig, axes = plt.subplots(1, 2, figsize=(16, 7))
-fig.suptitle('Molecular Docking Results: Drug Candidates vs BDBV VP35\n(PDB: 5VKD | AutoDock Vina v1.2.5 | Exhaustiveness=16)',
+fig.suptitle('Molecular Docking Results: Drug Candidates vs BDBV NP\n(PDB: 5VKD | AutoDock Vina v1.2.5 | Exhaustiveness=16)',
              fontsize=13, fontweight='bold')
 
 # Plot 1: Binding affinities
 bars = axes[0].barh(compounds, affinities, color=colors, alpha=0.85, edgecolor='black')
 axes[0].set_xlabel('Binding Affinity (kcal/mol)', fontsize=11)
-axes[0].set_title('Binding Affinities Against BDBV VP35', fontsize=11)
+axes[0].set_title('Binding Affinities Against BDBV NP', fontsize=11)
 axes[0].axvline(x=-7.0, color='red', linestyle='--', alpha=0.7, label='Strong binding threshold (-7.0)')
 axes[0].axvline(x=-5.0, color='orange', linestyle='--', alpha=0.7, label='Moderate binding threshold (-5.0)')
 axes[0].legend(fontsize=9)
@@ -49,7 +49,7 @@ top_affs = [abs(r[1]) for r in top5]
 bar_colors = ['#D62728', '#D62728', '#FF7F0E', '#FF7F0E', '#FF7F0E']
 bars2 = axes[1].bar(top_names, top_affs, color=bar_colors, alpha=0.85, edgecolor='black')
 axes[1].set_ylabel('|Binding Affinity| (kcal/mol)', fontsize=11)
-axes[1].set_title('Top 5 Drug Candidates Against BDBV VP35', fontsize=11)
+axes[1].set_title('Top 5 Drug Candidates Against BDBV NP', fontsize=11)
 axes[1].tick_params(axis='x', rotation=20)
 axes[1].set_ylim(0, 10)
 

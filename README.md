@@ -1,6 +1,6 @@
 # BDBV Computational Drug Discovery 2026
 
-## In Silico Comparative Genomic Analysis and Molecular Docking of Antiviral Compounds Against Bundibugyo Ebolavirus VP35 in the Context of the 2026 PHEIC Outbreak
+## In Silico Comparative Genomic Analysis and Molecular Docking of Antiviral Compounds Against Bundibugyo Ebolavirus Nucleoprotein (NP) in the Context of the 2026 PHEIC Outbreak
 
 **Author:** Yedavalli Lakshmi Sai Varshini
 
@@ -62,7 +62,7 @@ On May 17, 2026, WHO declared a Public Health Emergency of International Concern
 
 ## Key Results
 
-### Docking Results — BDBV VP35 (PDB: 5VKD)
+### Docking Results — BDBV NP (PDB: 5VKD)
 
 | Rank | Compound | Affinity (kcal/mol) | Interpretation |
 |------|----------|---------------------|----------------|
